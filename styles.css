@@ -1,0 +1,104 @@
+/* ini css */
+.title{
+    text-align: center;
+}
+main{
+    display:flex;
+    justify-content:space-around;
+}
+.main-content{
+    flex: 1;
+    padding:12px
+}
+.input-title{
+    font-size: 14px;
+    font-weight: bold;
+}
+form{
+    background-color: aliceblue;
+    padding: 12px;
+    border-radius: 8px;
+}
+.button-submit{
+    background-color: rgb(80, 196, 222);
+    color:white;
+    border: 0px;
+    padding:5px;
+    text-align: center;
+    border-radius:5px
+}
+.button-reset{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border: 0px;
+    padding:5px;
+    text-align: center;
+    border-radius:5px
+}
+input[type=number] {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=number]:focus{
+    border: 3px solid #555
+}
+.result-content{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
+.result-status{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
+.result-bmi{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
+.result-message{
+text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
+.button-download{
+    background-color: rgb(80, 196, 222);
+    color:white;
+    border: 0px;
+    padding:5px;
+    text-align: center;
+    border-radius:5px
+}
+.button-konsultasi{
+    background-color: rgb(80, 196, 222);
+    color:white;
+    border: 0px;
+    padding:5px;
+    text-align: center;
+    border-radius:5px
+}
+.button-registrasi{
+    background-color: rgb(80, 196, 222);
+    color:white;
+    border: 0px;
+    padding:5px;
+    text-align: center;
+    border-radius:5px
+}
+.last-section{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 8px;
+    padding: 12px;
+}
